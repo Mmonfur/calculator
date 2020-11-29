@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+.outer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 0.1rem solid rgb(202, 202, 202);
+    border-radius: 0.2rem;
+    width: 17.2rem;
+    padding: 1rem 0.3rem;
+}
+
+#input {
+    width: 16rem;
+    border: 0.1rem solid rgb(202, 202, 202);
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0.2rem; 
+    margin: 0.3rem;
+}
+
+.calculator-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 17.2rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.buttons {
+    border: 0.1rem solid rgb(202, 202, 202);
+    border-radius: 0.2rem;
+    width: 3.5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0.3rem;
+    background-color: rgb(238, 236, 236);
+}
+
+.btn_darkgrey {
+    background-color: rgb(202, 200, 200);
+}
+
+.btn_equal {
+    line-height: 10.4rem;
+    color: ivory;
+    background-color: rgb(65, 62, 248);
+    align-items: stretch;
+}
